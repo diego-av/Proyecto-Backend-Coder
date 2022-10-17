@@ -1,0 +1,41 @@
+# Products
+
+# POST http://localhost:8080/api/productos/ 
+# doesn't work, info by body didn't sended
+# { 
+#     "nombre": "Terra Blade",
+#     "descripcio": "Lorem ipsum, dolor sit amet consectetur adipisicing elit" ,
+#     "codigo": "12345",
+#     "foto":  "https://cdn2.iconfinder.com/data/icons/icontober/64/Inkcontober_Screech_Psyduck-512.png",
+#     "precio": 50,
+#     "stock": 35
+# }
+
+# GET http://localhost:8080/api/productos/
+
+# GET http://localhost:8080/api/productos/3
+
+
+# PUT http://localhost:8080/api/productos/3
+# doesn't work, info by body didn't sended
+# {
+#  "nombre": "Portal gun",
+#  "codigo": "5432
+# }
+
+# DELETE http://localhost:8080/api/productos/1
+
+
+# Cart
+
+# POST  http://localhost:8080/api/carrito
+
+# POST http://localhost:8080/api/carrito/2/productos
+# doesn't work, info by body didn't sended
+# {"prodId": 3}
+
+# GET http://localhost:8080/api/carrito/2/productos/
+
+# DELETE http://localhost:8080/api/carrito/2/productos/3
+
+# DELETE http://localhost:8080/api/carrito/2
